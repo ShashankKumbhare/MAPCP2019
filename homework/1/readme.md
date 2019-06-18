@@ -140,6 +140,31 @@ Unmerged paths:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+$ git checkout test2
+Switched to branch 'test2'
+
+
+O. 
+$ git branch -d test1
+error: The branch 'test1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D test1'.
+
+
+P.
+$ git branch -d test1
+Deleted branch test1 (was a73b158).
+
+$ git branch
+* master
+  test2
+
+
+Q.
+
+
+
+R.
+
 
 
 
