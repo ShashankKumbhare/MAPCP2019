@@ -9,7 +9,7 @@
 **Course webpage:**  https://www.cdslab.org/MAPCP2019U/  
 **Photo:**  
 <img src=IMG_20170923_092223.jpg width="20%">  
-<p aligh="center">
+<p aligh="center">  
 ## **Description of the project’s content**  
 This repository contains my homework, quizzes, and virtually every effort that I have made for [MAPCP2019U class](https://www.cdslab.org/MAPCP2019U/). The structure of the project is the following:  
 
