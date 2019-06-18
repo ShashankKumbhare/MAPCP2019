@@ -3,10 +3,11 @@ Shashank Kumbhare
 1. 
 (D) git add --all
 (E) git add -u
+(I) git add -u; git add .
  
 
 2.
-(A) git commit 
+(A) git commit -am
 
 3.
 git help
@@ -26,8 +27,8 @@ git help
 7.
 1980's
 
-8. Fortran
+8. 
 
-9. 
+9. Fortran
 
 10. C
