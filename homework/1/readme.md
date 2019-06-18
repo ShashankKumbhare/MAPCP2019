@@ -149,7 +149,29 @@ $ git branch -d test1
 error: The branch 'test1' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D test1'.
 
+
 P.
+$ git branch -d test1
+Deleted branch test1 (was a73b158).
+
+$ git branch
+* master
+  test2
+
+
+Q.
+
+
+
+R.
+$ git branch -d test2
+error: Cannot delete branch 'test2' checked out at 'C:/Users/Shashank/Desktop/Git/MAPCP2019G'
+
+S.
+
+
+T.
+
 
 
 
