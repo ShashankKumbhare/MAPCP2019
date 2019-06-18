@@ -86,6 +86,59 @@ Now I can see test.txt
 
 
 J.
+$ git merge test2
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+
+K.
+$ git checkout test2
+error: you need to resolve your current index first
+homework/1/readme.md: needs merge
+homework/1/test.txt: needs merge
+
+
+L.
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   readme.md
+        both added:      test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Reason: Because a common file between the two branches, has been modified on both branches in parallel.
+
+M.
+$ vim test.txt
+
+
+N.
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   readme.md
+        both added:      test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
 
 
