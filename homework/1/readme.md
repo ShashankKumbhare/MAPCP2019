@@ -164,6 +164,16 @@ Q.
 
 
 R.
+<<<<<<< HEAD
+=======
+$ git branch -d test2
+error: Cannot delete branch 'test2' checked out at 'C:/Users/Shashank/Desktop/Git/MAPCP2019G'
+
+S.
+
+
+T.
+>>>>>>> test2
 
 
 
