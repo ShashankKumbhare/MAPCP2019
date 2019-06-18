@@ -59,7 +59,7 @@ error: The following untracked working tree files would be overwritten by checko
 Please move or remove them before you switch branches.
 Aborting
 
-Fix: Stage and commit
+Fix: Stage and commit and then checkout to test1
 
 
 H.
