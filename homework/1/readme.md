@@ -176,5 +176,23 @@ $ git branch
 
 
 T.
+$ git add --all
+
+Shashank@ShashankPC MINGW64 ~/desktop/git/MAPCP2019G/homework/1 (master)
+$ git commit --all
+[master dc9cb51] werwe
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+Shashank@ShashankPC MINGW64 ~/desktop/git/MAPCP2019G/homework/1 (master)
+$ git push --all
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 561 bytes | 280.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ShashankKumbhare/MAPCP2019G.git
+   edb96c2..dc9cb51  master -> master
 
 
