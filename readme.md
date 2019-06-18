@@ -32,4 +32,4 @@ Phone: 682-812-9211
   
   
 > I have not failed. I’ve just found 10,000 ways that won’t work.  
-> [Thomas A. Edison]<span style="color:red"> (https://en.wikipedia.org/wiki/Thomas_Edison) </span>
+> [<span style="color:red">Thomas A. Edison</span>](https://en.wikipedia.org/wiki/Thomas_Edison)  
