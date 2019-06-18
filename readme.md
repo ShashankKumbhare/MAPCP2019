@@ -8,4 +8,4 @@
 **MAPCP-Class Title:** Student  
 **Course webpage:**  https://www.cdslab.org/MAPCP2019U/  
 **Photo:**  
-![my photo](C:\Users\Shashank\Desktop\Git\MAPCP2019G\IMG_20170923_092223.png)
+![my photo](C:\Users\Shashank\Desktop\Git\MAPCP2019G\IMG_20170923_092223.jpg)
