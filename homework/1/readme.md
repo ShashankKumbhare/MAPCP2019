@@ -9,12 +9,15 @@ B.
 $ git checkout test1
 Switched to branch 'test1'
 
+
 C.
 $ vim test.txt
+
 
 D.
 Shashank@ShashankPC MINGW64 ~/Desktop/Git/MAPCP2019G/homework/1 (test1)
 $ git add --all
+
 
 Shashank@ShashankPC MINGW64 ~/Desktop/Git/MAPCP2019G/homework/1 (test1)
 $ git commit --all
@@ -34,5 +37,35 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/ShashankKumbhare/MAPCP2019G.git
    1f0c73c..c7d3869  test1 -> test1
 
+
 E. 
+$ git checkout test2
+Switched to branch 'test2'
+
+No, I do not see that file in test2 anymore because test.txt was linke to test1 branch.
+
+
+F.
+$ vim test.txt
+
+
+G.
+$ git checkout test1
+error: Your local changes to the following files would be overwritten by checkout:
+        homework/1/readme.md
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+        homework/1/test.txt
+Please move or remove them before you switch branches.
+Aborting
+
+Fix: Stage and commit and then checkout to test1
+
+$ git checkout test1
+Switched to branch 'test1'
+
+H.
+
+
+
 
