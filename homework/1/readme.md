@@ -145,6 +145,11 @@ Switched to branch 'test2'
 
 
 O. 
+$ git branch -d test1
+error: The branch 'test1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D test1'.
+
+P.
 
 
 
