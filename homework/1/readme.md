@@ -10,4 +10,7 @@ $ git branch test2
 B. 
 $ git checkout test1
 Switched to branch 'test1'
+$ vim test.txt
 
+C.
+$ vim test.txt
