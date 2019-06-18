@@ -25,4 +25,4 @@ For questions and troubleshooting, please contact:
 
 Shashank Kumbhare  
 shashank.kumbhare@mavs.uta.edu  
-<any other contact or signature information that you would like to add>  
+Phone: 682-812-9211  
