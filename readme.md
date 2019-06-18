@@ -29,9 +29,8 @@ For questions and troubleshooting, please contact:
 Shashank Kumbhare  
 shashank.kumbhare@mavs.uta.edu  
 Phone: 682-812-9211  
-  
-  
-<span style="color:blue">some Thomas A. Edison text</span>
+
   
 > I have not failed. I’ve just found 10,000 ways that won’t work.  
-> [<span style="font:Time New Roman">Thomas A. Edison</span>](https://en.wikipedia.org/wiki/Thomas_Edison)  
+> [Thomas A. Edison](https://en.wikipedia.org/wiki/Thomas_Edison)  
+
