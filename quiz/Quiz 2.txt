@@ -1,0 +1,31 @@
+# Shashank Kumbhare
+
+(1)
+
+
+(2)
+C: Column-wise
+Fortran: Row-wise
+Matlab: Row-wise
+Python: column-wise
+
+(3)
+1. Data traversel
+2. Conditional statements
+3. looping
+
+(4)
+1. syntax error
+2. runtime error
+3. sementic error
+
+(5)
+runtime error
+
+(6)
++2^31-1
+
+(7)
+1. int16 can store +ve and -ve both while uint64 can store only +ve
+2. int16 can store a max no. of 2^15-1 while uint64 can store a max no. of 2^64-1
+
