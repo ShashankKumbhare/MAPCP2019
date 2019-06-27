@@ -4,10 +4,10 @@
 
 
 (2)
-C: Column-wise
-Fortran: Row-wise
-Matlab: Row-wise
-Python: column-wise
+C: Row-wise
+Fortran: Column-wise
+Matlab: Column-wise
+Python: Row-wise
 
 (3)
 1. Data traversel
