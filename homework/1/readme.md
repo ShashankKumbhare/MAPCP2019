@@ -1,4 +1,4 @@
-# Shashank Kumbhare
+# Shashank Kumbhare (Homework 1)
 
 A.
 $ git branch test1
