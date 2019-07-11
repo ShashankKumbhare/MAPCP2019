@@ -21,9 +21,9 @@ c =
 
   logical
 
-   1
-explanation: logical value of 1 has been assigned to variable 'c'
+   1 has been assigned to variable 'c'
 
+explanation: logical value of 1
 >> whos a b c
   Name      Size            Bytes  Class      Attributes
 
@@ -273,14 +273,39 @@ a =
      0     2     0
      0     0     2
 	 
->> a=2+zeros(3,3)
+>> x = zeros(3,3)
 
-a =
+x =
 
-     2     2     2
-     2     2     2
-     2     2     2
+     0     0     0
+     0     0     0
+     0     0     0
 
+
+>> for i=1:3
+x(i,i) = 2
+
+end
+
+x =
+
+     2     0     0
+     0     0     0
+     0     0     0
+
+
+x =
+
+     2     0     0
+     0     2     0
+     0     0     0
+
+
+x =
+
+     2     0     0
+     0     2     0
+     0     0     2
 
 (5)
 Here is the link to my script_full_of_errors_fixed.m code
