@@ -315,7 +315,7 @@ x =
 (5)
 Here is the link to my script_full_of_errors_fixed.m code
 
-[**script_full_of_errors_fixed**:](script_full_of_errors_fixed)
+[**script_full_of_errors_fixed**:](homework\2\script_full_of_errors_fixed)
 	 
 
 
