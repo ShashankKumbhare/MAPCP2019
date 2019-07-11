@@ -145,6 +145,7 @@ ans =
 explantion: 'false' is a key word for logical 1. But it is case sensitive so 'False' will not work
 
 
+
 (2)
 Answer: For a signed variable, a negative value too large to fit would become a large positive value. An unsigned variable that exceeds its capacity would become a small positive value, or zero.
 
@@ -179,6 +180,7 @@ ans =
   int32
 
    2147483647
+ 
  
  
 (3)
@@ -250,6 +252,7 @@ ans =
 explanation: here matlab is folloowing the operator precedence
 
 
+
 (4)
 >> x=[2,2,2]
 
@@ -306,6 +309,8 @@ x =
      2     0     0
      0     2     0
      0     0     2
+
+
 
 (5)
 Here is the link to my script_full_of_errors_fixed.m code
