@@ -326,7 +326,7 @@ Here is the link to my script_full_of_errors_fixed.m code
 
 **Output**
 <p align="center">
-<img src=sine.png width="20%">  
+<img src=sine.png width="50%">  
 </p>
 
 
