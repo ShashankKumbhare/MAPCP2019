@@ -343,7 +343,11 @@ Change the MATLAB current folder or add its folder to the MATLAB path.
 Explanation: When we call a script by its name, matlab search the file in the current working directory. Since, the file in not in current directory it won't run.
 
 
-(9)
+(10)
+click [**here**](pdf.m) for the script 
+
+>> pdf
+   0.073381331586870
  
 
 
