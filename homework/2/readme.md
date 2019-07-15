@@ -324,13 +324,27 @@ Here is the link to my script_full_of_errors_fixed.m code
 >> edit myscript.m  
 >> myscript  
 
+click [**here**](myscript.m) for the script
+
 **Output**
 <p align="center">
 <img src=sine.png width="50%">  
 </p>
 
 
+(8)
+>> cd ..  
+>> myscript  
+'myscript' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\Shashank\Documents\MATLAB\mynewdir
 
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Explanation: When we call a script by its name, matlab search the file in the current working directory. Since, the file in not in current directory it won't run.
+
+
+(9)
+ 
 
 
 
