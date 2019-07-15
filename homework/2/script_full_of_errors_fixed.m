@@ -22,8 +22,11 @@ and = 'duck';   % duck is not defined. So making duck a character 'duck'
 continue_ = x > 0;
 fox = false;   % fox is not defined.
 wolf = fox == true;
-Persian = 'Persian is a human language'  % for vector of character type, in order to concanate the dimension shoud be 1
-Spanish = {'Spanish ' 'is ' ' another'  'language'}   % an extra '}'
+Persian = 'Persian is a human language';    % for vector of character type, in order to concanate the dimension shoud be 1
+disp(Persian);
+Spanish = {'Spanish ' 'is ' ' another'  'language'};   % an extra '}'
+disp(Spanish);
+
 disp([char(Persian(1:7)) ' is not the same as ' char(Spanish(1))]);    % we have to specify the range in a cell
 
 
