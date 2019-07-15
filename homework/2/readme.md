@@ -343,18 +343,18 @@ Change the MATLAB current folder or add its folder to the MATLAB path.
 Explanation: When we call a script by its name, matlab search the file in the current working directory. Since, the file in not in current directory it won't run.
 
 
-(10)
+(10)  
 click [**here**](pdf.m) for the script 
 
 >> pdf  
    0.176032663382150
    
-(12)
+(12)  
  click [**here**](egg.m) for the script
 
-Output:
-Time for large egg to boil taken from fridge = 380.6317 seconds
-Time for large egg to boil taken from room temperature = 302.5443 seconds
+Output:  
+Time for large egg to boil taken from fridge = 380.6317 seconds  
+Time for large egg to boil taken from room temperature = 302.5443 seconds  
 
 
  
