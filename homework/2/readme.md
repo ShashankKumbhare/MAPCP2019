@@ -324,7 +324,10 @@ Here is the link to my script_full_of_errors_fixed.m code
 >> edit myscript.m
 >> myscript
 
-click [here](sine.png) for the output
+**Output**
+<p align="center">
+<img src=sine.png width="20%">  
+</p>
 
 
 
