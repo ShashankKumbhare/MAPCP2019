@@ -319,10 +319,10 @@ Here is the link to my script_full_of_errors_fixed.m code
 
 	 
 (7)
->> mkdir mynewdir
->> cd mynewdir
->> edit myscript.m
->> myscript
+>> mkdir mynewdir  
+>> cd mynewdir  
+>> edit myscript.m 
+>> myscript  
 
 **Output**
 <p align="center">
