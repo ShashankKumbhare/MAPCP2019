@@ -316,9 +316,15 @@ x =
 Here is the link to my script_full_of_errors_fixed.m code
 
 [**script_full_of_errors_fixed**:](script_full_of_errors_fixed.m)
+
 	 
+(7)
+>> mkdir mynewdir
+>> cd mynewdir
+>> edit myscript.m
+>> myscript
 
-
+click [here](sine.png) for the output
 
 
 
