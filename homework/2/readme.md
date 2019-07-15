@@ -353,8 +353,8 @@ click [**here**](pdf.m) for the script
  click [**here**](egg.m) for the script
 
 Output:  
-Time for large egg to boil taken from fridge = 380.6317 seconds  
-Time for large egg to boil taken from room temperature = 302.5443 seconds  
+Time for large egg to boil taken from fridge = 380.6317 sec  
+Time for large egg to boil taken from room temperature = 302.5443 sec  
 
 
  
