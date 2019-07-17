@@ -5,7 +5,6 @@
 click [**here(fib.m)**](fib.m) for the main script fib.m  
 click [**here(fibo.m)**](fibo.m)) for the script fibo.m  
 
-
 Output:  
 
 >> fib('shashank')  
@@ -41,3 +40,45 @@ Fib(11)=89
 Please enter another non-negative integer or type stop: 12  
 Fib(12)=144  
 Please enter another non-negative integer or type stop: 'stop'  
+
+
+(5)
+
+click [**here(prime.m)**](prime.m) for the main script prime.m  
+click [**here(modulus.m)**](modulus.m)) for the script modulus.m  
+
+Output:  
+
+>> prime(0)  
+false  
+>> prime(1)  
+false  
+>> prime(2)  
+true  
+>> prime(3)  
+true  
+>> prime(4)  
+false  
+>> prime(5)  
+true  
+>> prime(6)  
+false  
+>> prime(7)  
+true  
+>> prime(8)  
+false  
+>> prime(9)  
+false  
+>> prime(10)  
+false  
+>> prime(11)  
+true  
+>> prime(12)  
+false  
+>> prime(13)  
+true
+  
+
+
+
+
