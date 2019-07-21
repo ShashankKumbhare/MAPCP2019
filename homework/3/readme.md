@@ -42,6 +42,27 @@ Fib(12)=144
 Please enter another non-negative integer or type stop: 'stop'  
 
 
+(4)
+
+function area=get_triangle_area(x)  
+  
+area=1/2*abs(x(3)*x(6)-x(5)*x(4)-x(1)*x(6)+x(5)*x(2)+x(1)*x(4)-x(3)*x(2));  
+  
+end  
+  
+  
+click [**here(get_triangle_area.m)**](get_triangle_area.m) for the main script get_triangle_area.m  
+  
+Output:  
+  
+>> get_triangle_area([0,0,1,0,0,2])  
+  
+ans =
+
+     1
+
+
+  
 (5)
 
 click [**here(prime.m)**](prime.m) for the main script prime.m  
