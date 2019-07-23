@@ -98,9 +98,12 @@ true
 false  
 >> prime(13)  
 true
+    
   
-
-
+(7)  
+  
+click [**here(abcdefgh.m)**](abcdefgh.m) for the script abcdefgh.m
+    
 (9)
 
 In matlab, eps stand for 'Floating-point relative accuracy'.  
@@ -113,6 +116,8 @@ In our program, when eps becomes 1.1102e-16 which is less than 2.22e-16, matlab 
 (10)
 
 click [**here(getLargestPrime.m)**](getLargestPrime.m) for the script getLargestPrime.m
+
+
 
 
 
