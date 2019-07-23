@@ -151,6 +151,3 @@ In our program, when eps becomes 1.1102e-16 which is less than 2.22e-16, matlab 
 click [**here(getLargestPrime.m)**](getLargestPrime.m) for the script getLargestPrime.m
 
 
-
-
-
