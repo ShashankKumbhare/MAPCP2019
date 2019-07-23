@@ -8,7 +8,7 @@ for k=1:length(varargin)
     
 end
 
-if (length(varargin)>3) %|| (~isreal(varargin))
+if length(varargin)>3)
     disp('Please enter 3 or less parameters');
     return
 end 
