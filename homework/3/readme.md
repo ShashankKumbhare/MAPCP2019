@@ -104,11 +104,15 @@ true
 (9)
 
 In matlab, eps stand for 'Floating-point relative accuracy'.  
-eps returns the distance from 1.0 to the next largest floating-point number.
-eps = 2^(-52), which is roughly 2.22e-16
-So, whenever a number gets less than 
+eps returns the distance from 1.0 to the next largest floating-point number. eps = 2^(-52), which is roughly 2.22e-16.
+So, whenever a number which we are adding gets less than eps(2.22e-16), it will consider it as 0.
+In our program, when eps becomes 1.1102e-16 which is less than 2.22e-16, matlab considered it as 0. And that's why 1.0 != 1.0 + eps becomes False.
+  
+  
+  
+(10)
 
-
+click [**here(getLargestPrime.m)**](getLargestPrime.m) for the script getLargestPrime.m
 
 
 
