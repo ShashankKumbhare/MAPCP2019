@@ -1,7 +1,7 @@
 function getLargestPrime(n)
 
 if (n<1)
-        disp('Please enter a non-negative number !')
+        disp('Please enter a non-negative number')
         return
 end
 
