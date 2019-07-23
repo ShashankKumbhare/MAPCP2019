@@ -1,0 +1,32 @@
+# Shashank Kumbhare  
+
+(1)
+
+function sum=gm(n)
+sum=1;
+    function sum1=gmm(m)
+        if m<0
+            return
+        elseif m==0
+            sum1=0;
+        elseif m==1
+            sum1=1/2;
+            n=m-1;    
+        end
+    end
+
+sum1=sum+gmm(n);       
+disp(sum);
+end
+
+
+(2)
+
+function sum=gm2(n)
+sum=0;
+for n=n:-1:0
+    sum=sum+1/2^n;
+end
+disp(sum);
+
+(3)
