@@ -100,6 +100,39 @@ false
 true
     
   
+(6)  
+  
+click [**here(genFunc.m)**](genFunc.m) for the script genFunc.m  
+  
+Output:  
+>> h1=genFunc(1,2,0)
+
+h1 =
+
+  function_handle with value:
+
+    @genFunc/evalFunc
+
+>> h2=genFunc(1,2)
+
+h2 =
+
+  function_handle with value:
+
+    @genFunc/evalFunc
+
+>> h1(7)
+
+ans =
+
+    63
+
+>> h2(7)
+
+ans =
+
+    63  
+  
 (7)  
   
 click [**here(abcdefgh.m)**](abcdefgh.m) for the script abcdefgh.m
