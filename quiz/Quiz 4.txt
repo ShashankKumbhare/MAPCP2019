@@ -2,9 +2,9 @@
 
 filePath=mfilename('fullpath');
 cd(fileparts(filePath));
-%'data.in.txt','new11.txt'
+%'data.in.txt','data.out.txt'
 File.Input.name='data.in.txt';
-File.Output.name='new11.txt';
+File.Output.name='data.out.txt';
 
 %open output file to write
 File.Output.id=fopen(File.Output.name,'w');
