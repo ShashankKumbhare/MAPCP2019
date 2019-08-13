@@ -24,7 +24,7 @@ click [**here(piPlot.m)**](piPlot.m) for the script piPlot.m
 Output:
 
 <p align="center">
-<img src=pi.jpg width="80%">  
+<img src=pi.png width="80%">  
 </p>
 
 
