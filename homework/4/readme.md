@@ -7,8 +7,6 @@ click [**here(readDSSP.m)**](readDSSP.m) for the main readDSSP.m
 Output:  
   
 click [**here(readDSSP_output.txt)**](readDSSP_output.txt) for the output text file readDSSP_output.txt  
-  
-  
     
 (9)  
   
@@ -24,9 +22,13 @@ click [**here(piPlot.m)**](piPlot.m) for the script piPlot.m
   
 Output:
 
+   >> piPlot(10000)  
+   
 <p align="center">
 <img src=pi.png width="80%">  
-</p>
+</p>  
+  
+(10)
 
 
 
