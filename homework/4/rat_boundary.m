@@ -105,21 +105,26 @@ for irow = nrow:-1:1
                   
         subPlot.XLim = [1 61];
         set ( gca, 'ydir', 'reverse' );
-        subPlot.YLim = [1 41];    
-        
-   
-     %   mainPlot.XLabel.FontSize = mainPlotAxisFontSize; 
-      %  mainPlot.YLabel.FontSize = mainPlotAxisFontSize; 
-       % mainPlot.Title.FontSize = mainPlotTitleFontSize; 
+        subPlot.YLim = [1 41];
         
    %    subPlot.imagesc(data(:,:,sliceNumber));
+        bwboundaries(data(:,:,sliceNumber));
         imagesc(data(:,:,sliceNumber));
+       
         if sliceNumber>=13
             subPlot.XAxis.Visible = 'on';
         else
             subPlot.XAxis.Visible = 'off';
         end
         subPlot.Title.String = ['z = ',sprintf('%d',sliceNumber)]; 
+        
+        [B,L] = bwboundaries(data(:,:,sliceNumber),'noholes');
+        %imshow(label2rgb(L, @jet, [.5 .5 .5]))
+        hold on
+        for k = 1:length(B)
+            boundary = B{k};
+            plot(boundary(:,2), boundary(:,1), 'r', 'LineWidth', 4.5)
+        end
 
                                
                   

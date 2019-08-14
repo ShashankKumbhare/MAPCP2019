@@ -37,5 +37,17 @@ Output:
 <p align="center">  
 <img src=rat.png width="80%">  
 </p>  
+  
+(11)  
+  
+click [**here(rat_boundary.m)**](rat_boundary.m) for the script rat_boundary.m  
+  
+Output:  
+   
+<p align="center">  
+<img src=rat_boundary.png width="80%">  
+</p>  
+
+
 
 
