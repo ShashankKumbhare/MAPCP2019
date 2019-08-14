@@ -17,7 +17,7 @@ On day 22, no. of cells: 146417628.487477
     
 (2)  
   
-click [**here(rat_exam.m)**](rat_exam.m) for the script rat_exam.m  
+click [**here(rat_exam.m)**](src/rat_exam.m) for the script rat_exam.m  
    
 Output:
    
@@ -52,7 +52,7 @@ Output:
   
 (3)  
   
-click [**here(cell_count_error.m)**](cell_count_error.m) for the script cell_count_error.m  
+click [**here(cell_count_error.m)**](src/cell_count_error.m) for the script cell_count_error.m  
   
 Output:  
    
