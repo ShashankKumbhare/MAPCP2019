@@ -17,23 +17,38 @@ On day 22, no. of cells: 146417628.487477
     
 (2)  
   
-click [**here(findPi.m)**](findPi.m) for the script findPi.m  
-  
-Output:  
-  
-   >> findPi(1000)  
-   ans =
-      3.140000000000000
+click [**here(rat_exam.m)**](rat_exam.m) for the script rat_exam.m  
    
-click [**here(piPlot.m)**](piPlot.m) for the script piPlot.m
-  
 Output:
-
-   >> piPlot(10000)  
    
 <p align="center">
-<img src=pi.png width="80%">  
-</p>  
+<img src=results/day10.png width="80%">  
+</p> 
+
+<p align="center">
+<img src=results/day12.png width="80%">  
+</p> 
+ 
+<p align="center">
+<img src=results/day14.png width="80%">  
+</p> 
+  
+<p align="center">
+<img src=results/day16.png width="80%">  
+</p> 
+
+<p align="center">
+<img src=results/day18.png width="80%">  
+</p> 
+
+<p align="center">
+<img src=results/day20.png width="80%">  
+</p> 
+
+<p align="center">
+<img src=results/day22.png width="80%">  
+</p> 
+  
   
 (10)  
   
