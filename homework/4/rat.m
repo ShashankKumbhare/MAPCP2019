@@ -102,11 +102,9 @@ for irow = nrow:-1:1
                                     ] ...
                       );
                                     
-        subPlot.XLim = [1 61];
         set ( gca, 'ydir', 'reverse' );
-        subPlot.YLim = [1 41];    
-        
-        imagesc(data(:,:,sliceNumber));
+       
+        imagesc(data(:,:,sliceNumber),colorLimits);
         
         if sliceNumber>=13
             subPlot.XAxis.Visible = 'on';
