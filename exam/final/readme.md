@@ -2,7 +2,7 @@
   
 (1)  
   
-click [**here(main.m)**](src\main.m) for the script main.m  
+click [**here(main.m)**](src/main.m) for the script main.m  
   
 Output:  
   
