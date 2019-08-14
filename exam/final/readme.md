@@ -50,17 +50,17 @@ Output:
 </p> 
   
   
-(10)  
+(3)  
   
-click [**here(rat.m)**](rat.m) for the script rat.m  
+click [**here(cell_count_error.m)**](cell_count_error.m) for the script cell_count_error.m  
   
 Output:  
    
 <p align="center">  
-<img src=rat.png width="80%">  
+<img src=results/cell_count_error.png width="50%">  
 </p>  
   
-(11)  
+(4)  
   
 click [**here(rat_boundary.m)**](rat_boundary.m) for the script rat_boundary.m  
   
