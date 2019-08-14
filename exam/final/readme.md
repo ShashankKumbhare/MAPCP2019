@@ -46,7 +46,7 @@ click [**here(cell_count_error.m)**](src/cell_count_error.m) for the script cell
 Output:  
    
 <p align="center">  
-<img src=results/cell_count_error.png width="50%">  
+<img src=results/cell_count_error.png width="80%">  
 </p>  
   
 (4)  
