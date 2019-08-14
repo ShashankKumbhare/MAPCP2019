@@ -1,11 +1,12 @@
-cells = importdata('cells.mat');
 
-daycell=sum(sum(sum(cells(:,:,:,:))));
-day=10;
-for i=1:7
-    fprintf('On day %d, no. of cells: %f \n', day, daycell(:,:,:,i));
-    day=day+2;
+load('cells.mat');
 
-end
-       
+rat_exam
+
+figure(8);
+cell_count_error
+
+figure(9);
+gompertzian_model
+
      
