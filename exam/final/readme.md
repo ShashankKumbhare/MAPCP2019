@@ -62,7 +62,7 @@ Output:
   
 (4)  
   
-click [**here(gompertzian_model.m)**](gompertzian_model.m) for the script gompertzian_model.m  
+click [**here(gompertzian_model.m)**](src/gompertzian_model.m) for the script gompertzian_model.m  
   
 Output:  
    
