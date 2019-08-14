@@ -1,12 +1,12 @@
 clear all;
 close all;
-load('data3D.mat');
+load('cells.mat');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FIGURE SPECIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-nrow = round(sqrt(length(data(1,1,:)))); % number of subplots to be created in the y direction
+nrow = round(sqrt(length(cells(1,1,:,1)))); % number of subplots to be created in the y direction
 ncol = nrow;                             % number of subplots to be created in the x direction
 
 % main plot specifications
@@ -33,13 +33,17 @@ colorbarWidth = 0.03;                                            % the width of 
 colorbarPositionY = mainPlotMarginBottom;                        % the y-position of the color bar
 colorbarPositionX = 1 - mainPlotMarginRight;                     % the x-position of the color bar
 colorbarHeight = nrow*subplotHeight+(nrow-1)*subplotInterspace;  % the height of the color bar
-colorLimits = [0,max(max(max(data(:,:,:))))];                    % the color bar limits, the dataset contains numbers between 0 and some large number.
+colorLimits = [0,max(max(max(cells(:,:,:,1))))];                    % the color bar limits, the dataset contains numbers between 0 and some large number.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FIRST CREATE A FIGURE HANDLE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-figHandle = figure();                           % create a new figure
+day=8;
+for k=1:length(cells(1,1,1,:))
+    
+
+figHandle = figure(k);                           % create a new figure
 figHandle.Visible = 'on';                       % set the visibility of figure in MATLAB
 figHandle.Position = [70, 10, 700, 1000];         % set the position and size of the figure
 figHandle.Color = [0.9400 0.9400 0.9400];       % set the background color of the figure to MATLAB default. You could try other options, such as 'none' or color names 'red',...
@@ -50,6 +54,9 @@ figHandle.Color = [0.9400 0.9400 0.9400];       % set the background color of th
 % the x and y labels and the color bar
 % for the entire figure.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+day=day+2;
 
 mainPlot = axes();              % create a set of axes in this figure. This main axes is needed in order to add the x and y labels and the color bar for the entire figure.
 mainPlot.Color = 'none';        % set color to none
@@ -65,7 +72,7 @@ mainPlot.XAxis.Visible = 'off'; % hide the x-axis line, because we only want to 
 mainPlot.YAxis.Visible = 'off'; % hide the y-axis line, because we only want to keep the y-axis label
 mainPlot.XLabel.Visible = 'on'; % make the x-axis label visible, while the x-axis line itself, has been turned off;
 mainPlot.YLabel.Visible = 'on'; % make the y-axis label visible, while the y-axis line itself, has been turned off;
-mainPlot.Title.String = ['A beautiful design of ',sprintf('%0.1f',nrow),' x ',sprintf('%0.1f',ncol),' subplots using MATLAB']; % set the title of the figure
+mainPlot.Title.String = ['Time = ',sprintf('%d',day),' days. Brain MRI slices along Z-direction, Rat W09. No radiation treatment.']; % set the title of the figure
 mainPlot.XLabel.FontSize = mainPlotAxisFontSize; % set the font size for the x-axis in mainPlot
 mainPlot.YLabel.FontSize = mainPlotAxisFontSize; % set the font size for the y-axis in mainPlot
 mainPlot.Title.FontSize = mainPlotTitleFontSize; % set the font size for the title in mainPlot
@@ -101,13 +108,13 @@ for irow = nrow:-1:1
                                       subplotHeight ...
                                     ] ...
                       );
-                  
-                  
+                                    
         subPlot.XLim = [1 61];
         set ( gca, 'ydir', 'reverse' );
         subPlot.YLim = [1 41];
         
-        imagesc(data(:,:,sliceNumber));
+        bwboundaries(cells(:,:,sliceNumber,k));
+        imagesc(cells(:,:,sliceNumber,k));
        
         if sliceNumber>=13
             subPlot.XAxis.Visible = 'on';
@@ -116,16 +123,9 @@ for irow = nrow:-1:1
         end
         
         subPlot.Title.String = ['z = ',sprintf('%d',sliceNumber)];
-        
-        [B,L] = bwboundaries(data(:,:,sliceNumber),'noholes');        
-        hold on
-        
-        for k = 1:length(B)
-            boundary = B{k};
-            plot(boundary(:,2), boundary(:,1), 'r', 'LineWidth', 4.5)
-        end
-        
+    
     end
+end
 end
 
 saveas(gcf,'currentPlot2.png');        % save the figure
