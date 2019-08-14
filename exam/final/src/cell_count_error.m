@@ -22,9 +22,12 @@ for x=1:length(daycell)
     daycell_2(x+1)=daycell(x);
 end
 
+h=errorbar(day,daycell_2,uncertanity,'-o', 'MarkerFaceColor', 'b');
+legend('Experimental Data');
+h.LineWidth = 2.5;
+h.CapSize = 8;
+legend(h, 'Location', [0.25 0.85 0.15 0.05]);
 
-errorbar(day,daycell_2,uncertanity,'-o', 'MarkerFaceColor', 'b');
-%plot(day,daycell_2,'-o', 'MarkerFaceColor', 'b');
 title('Gompertzian Fit to Rat''s Brain Tumor growth');
 xlabel('Time[days]');
 ylabel('Tumor Cell Count');
