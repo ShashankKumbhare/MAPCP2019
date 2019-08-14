@@ -3,18 +3,7 @@
 (1)  
   
 click [**here(main.m)**](src/main.m) for the script main.m  
-  
-Output:  
-  
->> main  
-On day 10, no. of cells: 15353211.952172   
-On day 12, no. of cells: 45042595.528707   
-On day 14, no. of cells: 74487574.870279   
-On day 16, no. of cells: 86011263.457846   
-On day 18, no. of cells: 102072672.963047   
-On day 20, no. of cells: 121122958.377041   
-On day 22, no. of cells: 146417628.487477   
-    
+   
 (2)  
   
 click [**here(rat_exam.m)**](src/rat_exam.m) for the script rat_exam.m  
