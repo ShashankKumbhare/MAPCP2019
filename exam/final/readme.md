@@ -22,31 +22,31 @@ click [**here(rat_exam.m)**](src/rat_exam.m) for the script rat_exam.m
 Output:
    
 <p align="center">
-<img src=results/day10.png width="80%">  
+<img src=results/day10.png width="100%">  
 </p> 
 
 <p align="center">
-<img src=results/day12.png width="80%">  
+<img src=results/day12.png width="100%">  
 </p> 
  
 <p align="center">
-<img src=results/day14.png width="80%">  
+<img src=results/day14.png width="100%">  
 </p> 
   
 <p align="center">
-<img src=results/day16.png width="80%">  
+<img src=results/day16.png width="100%">  
 </p> 
 
 <p align="center">
-<img src=results/day18.png width="80%">  
+<img src=results/day18.png width="100%">  
 </p> 
 
 <p align="center">
-<img src=results/day20.png width="80%">  
+<img src=results/day20.png width="100%">  
 </p> 
 
 <p align="center">
-<img src=results/day22.png width="80%">  
+<img src=results/day22.png width="100%">  
 </p> 
   
   
