@@ -62,12 +62,12 @@ Output:
   
 (4)  
   
-click [**here(rat_boundary.m)**](rat_boundary.m) for the script rat_boundary.m  
+click [**here(gompertzian_model.m)**](gompertzian_model.m) for the script gompertzian_model.m  
   
 Output:  
    
 <p align="center">  
-<img src=rat_boundary.png width="80%">  
+<img src=results/gompertzian_model.png width="80%">  
 </p>  
 
 
