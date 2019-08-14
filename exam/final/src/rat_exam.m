@@ -109,12 +109,9 @@ for irow = nrow:-1:1
                                     ] ...
                       );
                                     
-        subPlot.XLim = [1 61];
         set ( gca, 'ydir', 'reverse' );
-        subPlot.YLim = [1 41];
         
-        bwboundaries(cells(:,:,sliceNumber,k));
-        imagesc(cells(:,:,sliceNumber,k));
+        imagesc(cells(:,:,sliceNumber,k),colorLimits);
        
         if sliceNumber>=13
             subPlot.XAxis.Visible = 'on';
